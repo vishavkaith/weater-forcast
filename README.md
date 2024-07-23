@@ -1,7 +1,6 @@
 # Weather App
 
 This is a weather forecast application built with Node.js, Express, and React. It allows users to fetch weather information for any city using the OpenWeatherMap API.
-
 ## Features
 
 - Fetch current weather data for a specified city.
