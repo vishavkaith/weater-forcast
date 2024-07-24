@@ -24,3 +24,48 @@ weather-forcast/
 │ └── ...
 │
 └── README.md # Project documentation
+
+
+#INSTALLATION
+
+
+## Prerequisites
+
+- Node.js and npm installed on your machine.
+
+## Setup
+
+### 1. Clone the Repository
+
+git clone https://github.com/your-username/weather-forcast.git
+cd weather-forcast
+
+2. Set Up the Server
+
+**Navigate to the server directory:**
+cd server
+
+**Install the dependencies:**
+npm install
+Create a .env file in the server directory and add your OpenWeatherMap API key:
+
+WEATHER_API_KEY=your_api_key_here
+
+**Start the server:**
+node server.js
+3. Set Up the Client
+
+**Navigate to the client directory:**
+cd ../client
+
+**Install the dependencies:**
+npm install
+
+**Start the client:**
+npm start
+The client will automatically open in your default browser at http://localhost:3000.
+
+**Usage**
+Enter the name of a city in the input field.
+Click the "Get Weather" button.
+The current weather data for the specified city will be displayed.
